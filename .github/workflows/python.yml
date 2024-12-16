@@ -7,7 +7,7 @@ on:
 
 jobs:
   test:
-    runs-on: windows-latest  # Run the job on the latest Ubuntu virtual machine
+    runs-on: ubuntu-latest  # Run the job on the latest Ubuntu virtual machine
 
     steps:
       # Step 1: Checkout the code
