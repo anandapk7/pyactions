@@ -24,6 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip  # Upgrade pip to the latest version
+          pythin pip install pytest #Installing pytetst
           # pip install -r requirements.txt  # Install dependencies from requirements.txt
 
       # Step 4: Run tests using pytest
