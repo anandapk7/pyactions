@@ -1,6 +1,7 @@
 import pytest
 
 print("Hello world")
+print(" hiiiii ")
 
 def test_hello():
     assert 1+1 == 2
